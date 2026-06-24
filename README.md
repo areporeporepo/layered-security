@@ -121,6 +121,7 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Ready to escalate | [`docs/escalation.md`](docs/escalation.md) — the right channel per layer, with real organizations |
 | Building your own baseline | [`docs/baseline.md`](docs/baseline.md) — the layer that protects your judgment under stress |
 | Curious about the AI-safety bridge | [`docs/ai-safety.md`](docs/ai-safety.md) — the same structure as distributed harm / scalable oversight in frontier AI |
+| Wanting the engine underneath it | [`docs/the-mechanism.md`](docs/the-mechanism.md) — the scapegoat mechanism: one person's pain as a group's shared, synchronized relief, with the math |
 | Ready to be part of the solution | [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/solution-layers.md`](docs/solution-layers.md) — verified positive-sum practice, anchored on animal welfare + health |
 
 ---
