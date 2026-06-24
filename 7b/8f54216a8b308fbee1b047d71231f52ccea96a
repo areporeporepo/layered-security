@@ -1,0 +1,27 @@
+docs/solution-layers.md
+  s_ddd34c2f141703::t_1dbf1a4920e6c4 1-114
+docs/figures/solutions.svg
+  s_ddd34c2f141703::t_33fd0ebee17a3c 1-83
+SOLUTIONS.md
+  s_ddd34c2f141703::t_a1e51e5fab4fcd 1-34,62-79
+  s_ddd34c2f141703::t_e2393bcea21c41 35-61
+README.md
+  s_ddd34c2f141703::t_313fedd8b4ee10 124
+  s_ddd34c2f141703::t_85a03152dd4981 78-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "7b8f54216a8b308fbee1b047d71231f52ccea96a",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
