@@ -64,6 +64,7 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Trying to decide if a behavior crosses a line | [`docs/layers.md`](docs/layers.md) — the per-layer standards |
 | Ready to escalate | [`docs/escalation.md`](docs/escalation.md) — the right channel per layer, with real organizations |
 | Building your own baseline | [`docs/baseline.md`](docs/baseline.md) — the layer that protects your judgment under stress |
+| Curious about the AI-safety bridge | [`docs/ai-safety.md`](docs/ai-safety.md) — the same structure as distributed harm / scalable oversight in frontier AI |
 
 ---
 
