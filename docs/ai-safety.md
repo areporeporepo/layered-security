@@ -63,6 +63,39 @@ is the harm; no component can see the aggregate.
 - This is **conceptual / methodological**, not empirical. It's a position-paper-shaped idea,
   not a benchmark. Treat it as such and it's legitimate; oversell it as data and it isn't.
 
+## The constructive flip: AI as the cross-layer architect
+
+Everything above frames AI as carrying the *same disease* — distributed harm no local monitor
+sees. But flip it. The human problem was never that the harm is unbeatable; it's that **no single
+human actor can span the layers.** Each person sees one slice, the aggregate is unseeable, and
+verification is manual so it gets skipped.
+
+**AI is the first agent that can actually operate across all layers and applications, at a low
+level.** That makes it the missing piece on the solution side:
+
+- **Aggregator** — it can hold the column no human layer can see: read the incident log, the
+  workplace record, the home sensors, the conduct trackers, and compute the true cross-layer
+  aggregate (the harm-side Exposure Index *and* the solution-side verification).
+- **Verifier** — it can check that the positive-sum practice is *real and logged*, not asserted,
+  across every application at once. "Care + action — verified" stops being a slogan you grade
+  yourself on and becomes something checkable end-to-end. (See [`../SOLUTIONS.md`](../SOLUTIONS.md).)
+- **Architect** — it can build the solution stack *into* each layer, low-level, so positive-sum
+  conduct is the default the system makes easy, instead of the costly path humans skip.
+
+### The double-edge (why the calibration guard is not optional)
+
+This is the same cross-layer span that made AI **dangerous** above — harm that propagates across
+every layer with no one seeing the whole. **Same power, both directions.** An AI that can verify
+positive-sum conduct across all layers can also enforce harm across all layers, and an aggregate
+monitor sensitive enough to catch distributed harm will, miscalibrated, *manufacture* coordination
+from noise — the exact over-detection trap a stressed human falls into.
+
+So the cross-layer architect only dissolves the substrate if it carries the two guards this repo
+keeps insisting on: **calibration** (the fact-vs-inference / over-detection discipline) and
+**verification** (logged, falsifiable, public — not claimed). Cross-layer power without those is
+just the harm mechanism with a bigger reach. With them, it's the first thing that can actually see
+and dissolve the local-knowledge problem at the root.
+
 ## If you wanted to take it further
 
 A short writeup titled something like *"Diffuse Harm and the Aggregation Problem: monitoring
