@@ -1,8 +1,13 @@
-# Layered Security: The Local-Knowledge Problem
+# The Personal Security Roadmap
 
-A framework for the kind of harm that no single person admits to causing — because
-each person can only see their own layer, judges their own conduct in isolation,
-and sincerely calls it normal.
+A defense-in-depth **roadmap** for personal security — built in the shape of a frontier-safety
+roadmap (layered safeguards, severity tiers, aggregate monitoring, calibrated escalation), but
+aimed at the kind of harm no single person admits to causing: harm distributed across the layers
+of a life, where each actor sees only their own layer, judges their own conduct in isolation, and
+sincerely calls it normal.
+
+It runs in two halves: **the threat model** (name the mechanism, quantify the aggregate, act) and
+**the safeguards** (a verified, positive-sum practice that dissolves the mechanism at the root).
 
 > ### 👉 If this is happening to you, don't read the theory — take action.
 > - **[START_HERE.md](START_HERE.md)** — crisis resources + your first steps (read this if you're overwhelmed).
