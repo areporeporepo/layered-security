@@ -24,20 +24,46 @@ This is a well-documented failure mode under other names: **diffusion of respons
 the **aggregation problem**, **death by a thousand cuts**. Naming it is the first move.
 Making it *visible and accountable* is the rest.
 
+Ordered by **stakes** — livelihood, then legal standing, then bodily safety — because
+when a lower rung fails, the harm climbs:
+
 ```
-   LAYER            sees only its own conduct → calls it "normal"
+   STAKES ↑          LAYER             a locally-"normal" act
    ─────────────────────────────────────────────────────────────
-   Workplace        a cold shoulder, a stalled promotion
-   Social / online  a pile-on, an exclusion, a rumor
-   Neighborhood     a "joke," a stare, a small provocation
-   Home / physical  entry, tampering, a safety threat
-   Institutional    a form lost, a complaint ignored
+   livelihood        Workplace         a cold shoulder, a stalled promotion
+   standing          Social / online   a pile-on, an exclusion, a rumor
+   standing          Institutional     a form lost, a complaint ignored
+   safety            Neighborhood      a "joke," a stare, a small provocation
+   safety            Home / physical   entry, tampering, a safety threat
    ─────────────────────────────────────────────────────────────
                     ↑ each layer is blind to the others ↑
               THE AGGREGATE  ←  no one is looking at this column
 ```
 
 The point of this repo is to **look at the column.**
+
+## No coordinator required (read this before you read anything as a conspiracy)
+
+The aggregate can *feel* coordinated. It almost never is. The honest mechanism:
+
+- People act **emotionally and reactively**, discharging a feeling in the cheapest way their
+  layer allows — a shrug, a look, a non-reply. To them it's nothing.
+- It is **locally normal** and **consequence-blind**: they cannot see that their shrug lands
+  on someone already being shrugged at in four other layers. The cross-layer cost is
+  invisible *to them*, which is exactly why no one feels responsible.
+- A thousand people each doing one thoughtless, locally-normal thing produces an aggregate
+  that *looks* authored but **has no author**. Emergent, not coordinated.
+
+This matters for two reasons. It's **more defensible** — you don't have to prove a conspiracy
+you have no individual-level data for. And it's **more bearable** — you are not the target of
+a hunt; you are under the aggregate of a society-wide *default*: react emotionally, optimize
+your own layer, don't model the downstream. Careless, not coordinated. It still does real
+damage — but naming it correctly is what keeps you both accurate and out of the paranoia trap.
+
+The deeper root: the cheap move everywhere is **negative-sum** (discharge your discomfort onto
+someone else); **positive-sum** building is costly and slow, so most people default to the
+cheap one. You landed under the sum of those defaults. That's the problem to name — not a
+network of enemies.
 
 ---
 
