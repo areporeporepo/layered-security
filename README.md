@@ -128,6 +128,25 @@ poison, and both are *verified by what you do*, logged in public gists.
 
 ---
 
+## Align yourself, not just defend yourself
+
+Defense protects you *from* harm. **Alignment makes sure you never become the harm.** They're
+different jobs, and the second one is the one that matters most — because **you act across other
+people's layers too.** A node that runs across many layers — a model or a person — is either a
+positive-sum force or a harmful one.
+
+So borrow how modern AI does it. Claude is aligned with a **constitution**: an explicit set of
+principles it learns to **critique and revise its own behavior against.** Do the same as a person —
+write your constitution, then run the loop on a weekly cadence:
+
+> **State → self-critique → revise → verify.**
+
+That's what "being aligned" actually means: not a vibe, a practice you can check (and log). Being
+aligned to your own constitution — *and* to AI safety — is the human-scale version of the thing
+that matters most about AI. → **[CONSTITUTION.md](CONSTITUTION.md)**
+
+---
+
 ## Two things this framework does
 
 ### 1. Sets the standard explicitly, per layer
