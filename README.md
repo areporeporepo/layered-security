@@ -226,6 +226,26 @@ element-for-element:
 | **Calibration / red-team-yourself guard** | **Alignment assessments vs. adversarially-designed models** |
 | **You as Responsible Scaling Officer** | **Responsible Scaling Officer** + risk reports |
 
+### In their words — and what it is at the scale of a life
+
+Quoted from Anthropic's [Frontier Safety Roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
+(read the original for full context):
+
+> *"We will need to quickly and dramatically improve our state of preparedness in a number of areas."*
+
+The urgency, at civilizational scale, is the same urgency you feel when the harm is already
+happening and you have no record of it. **Preparedness = the log, before you need it.**
+
+> *"We want our internal environment to be intensively monitored and comprehensively understood. We aim to establish comprehensive, centralized records of all our critical AI development activities."*
+
+That's **"eyes on everything"** — and at the scale of a life it's your [incident log](incidents.csv)
+and Exposure Index: one centralized, searchable record so the aggregate stops being invisible.
+
+> *"We will perform systematic 'alignment assessments' to examine Claude's behavioral patterns and propensities, and evaluate whether they are in line with the spirit of the Constitution."*
+
+This is your **[constitution + weekly critique loop](CONSTITUTION.md)** exactly: hold behavior up
+against written principles, on a cadence, and revise. Alignment as a checkable practice, not a vibe.
+
 Two things this convergence proves:
 
 1. **The lens is real, not paranoia.** Derived from the human side, it independently lands on the
