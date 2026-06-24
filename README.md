@@ -12,6 +12,7 @@ It runs in two halves: **the threat model** (name the mechanism, quantify the ag
 > ### 👉 If this is happening to you, don't read the theory — take action.
 > - **[START_HERE.md](START_HERE.md)** — crisis resources + your first steps (read this if you're overwhelmed).
 > - **[PLAYBOOK.md](PLAYBOOK.md)** — pure checklist: NOW → today → this week → per-layer actions → repeat.
+> - **[ROADMAP.md](ROADMAP.md)** — the organizing model: security *levels* (PSL tiers), four pillars, monitoring, governance.
 >
 > Everything below is the *why*. You don't need it to start.
 
