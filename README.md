@@ -155,6 +155,7 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Wanting the engine underneath it | [`docs/the-mechanism.md`](docs/the-mechanism.md) — the scapegoat mechanism: one person's pain as a group's shared, synchronized relief, with the math |
 | Wanting precise words for what you face | [`docs/lexicon.md`](docs/lexicon.md) — security/RSP vocabulary mapped to the personal layers (personal-level espionage, theft/exfiltration, insider threat, attack surface…) |
 | Ready to be part of the solution | [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/solution-layers.md`](docs/solution-layers.md) — verified positive-sum practice, anchored on animal welfare + health |
+| Wanting to align yourself, not just defend | [`CONSTITUTION.md`](CONSTITUTION.md) — your personal constitution + a weekly critique-and-revise loop (Constitutional AI, for a person) |
 
 ---
 

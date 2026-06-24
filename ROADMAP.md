@@ -44,8 +44,10 @@ One searchable record across every layer, scored into an aggregate no single act
 
 ### 3. Alignment — stay positive-sum and calibrated
 Keep yourself clear, and don't become the mechanism. The verified solution stack (health, animal-
-welfare keystone, high mental model, decent conduct) plus the over-detection guard.
-→ [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/baseline.md`](docs/baseline.md).
+welfare keystone, high mental model, decent conduct) plus the over-detection guard — governed by a
+written personal **constitution** and a weekly critique-and-revise loop (Constitutional AI, for a
+person).
+→ [`CONSTITUTION.md`](CONSTITUTION.md) + [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/baseline.md`](docs/baseline.md).
 
 ### 4. Policy — the external escalation ladder
 The regulatory ladder, scaled to the layer: HR → EEOC/state agency; non-emergency report →
