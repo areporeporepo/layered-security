@@ -260,3 +260,34 @@ destination.
 
 Full mapping + the constructive flip (AI as the cross-layer architect who can finally *see* the
 aggregate no human could): [`docs/ai-safety.md`](docs/ai-safety.md).
+
+---
+
+## The destination: Anthropic's Frontier Safety Roadmap
+
+This is the actual roadmap everything above is shaped after. Summarized from the public
+[Frontier Safety Roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap) — read the
+original for exact commitments and dates.
+
+**Capability tiers (the trigger ladder):**
+- **ASL-3 (today)** — models that could significantly help create/obtain chemical or biological weapons; current protections apply.
+- **Near-term threshold** — when models could help moderately-resourced expert teams build catastrophic weapons; expand ASL-3-grade protections.
+- **Advanced (early 2027)** — models that could fully automate or dramatically accelerate top research teams; most rigorous safeguards.
+
+**The four pillars, on a timeline:**
+
+| Pillar | Commitment | Stated target |
+|---|---|---|
+| **Policy** | A regulatory ladder scaling requirements with capability level | ~July 2026 |
+| **Security** | Moonshot R&D + systematic hardening across infrastructure | ~Sept 2026–2027 |
+| **Alignment** | Constitutional consistency via updated oversight + assessment pipelines | ~Oct 2026 |
+| **Safeguards** | World-class internal red-teaming, plus "eyes on everything" monitoring | ~Jan 2027 |
+
+**Governance:** a Responsible Scaling Officer approves deployments; risk reports examine
+implementation; goals are revised transparently with comment periods.
+
+That's the destination — and your personal roadmap is the same architecture, one life at a time.
+**Feel it at the scale of a life. Then go help with it at the scale of everything.**
+
+> *Dates and structure are summarized from the public roadmap and may change — verify against the
+> source before citing.*
