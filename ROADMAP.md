@@ -8,6 +8,8 @@ in the world, pointed at the layers of one life.
 (Built in the shape of Anthropic's
 [Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap).)
 
+![The Personal Security Roadmap: PSL severity tiers, four pillars, and a governance layer](docs/figures/roadmap.svg)
+
 ---
 
 ## Personal Security Levels (PSL) — the severity ladder

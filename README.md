@@ -9,6 +9,12 @@ sincerely calls it normal.
 It runs in two halves: **the threat model** (name the mechanism, quantify the aggregate, act) and
 **the safeguards** (a verified, positive-sum practice that dissolves the mechanism at the root).
 
+> ## ⭐ The centerpiece is the roadmap itself → **[ROADMAP.md](ROADMAP.md)**
+> A standalone, frontier-safety-style roadmap: **PSL severity tiers · four pillars · governance.**
+> This README is the supporting material; the roadmap is the thing.
+>
+> [![The Personal Security Roadmap](docs/figures/roadmap.svg)](ROADMAP.md)
+
 > ### 👉 If this is happening to you, don't read the theory — take action.
 > - **[START_HERE.md](START_HERE.md)** — crisis resources + your first steps (read this if you're overwhelmed).
 > - **[PLAYBOOK.md](PLAYBOOK.md)** — pure checklist: NOW → today → this week → per-layer actions → repeat.
