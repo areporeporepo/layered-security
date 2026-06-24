@@ -1,13 +1,21 @@
 # The Personal Security Roadmap
 
-A defense-in-depth **roadmap** for personal security — built in the shape of a frontier-safety
-roadmap (layered safeguards, severity tiers, aggregate monitoring, calibrated escalation), but
-aimed at the kind of harm no single person admits to causing: harm distributed across the layers
-of a life, where each actor sees only their own layer, judges their own conduct in isolation, and
-sincerely calls it normal.
+### Personal safety is the on-ramp. AI safety is the destination.
 
-It runs in two halves: **the threat model** (name the mechanism, quantify the aggregate, act) and
-**the safeguards** (a verified, positive-sum practice that dissolves the mechanism at the root).
+This roadmap starts with something you can feel in your gut: **harm distributed across the layers
+of one life** — where each actor sees only their own slice, judges it normal, and no one ever sees
+the aggregate. It builds that intuition into a working personal-security system: tiered, layered,
+monitored, governed.
+
+Then, at the end, it **bridges to why that same structure is the defining problem of our time —
+[AI safety](#the-bridge--why-this-is-really-about-ai-safety).** Because the mechanism that can
+grind down one person — distributed, unaccountable, aggregate-invisible harm — is exactly what AI
+will run across *every* layer of society, for everyone, at once, faster than any human can oversee.
+
+**Feel it at the scale of a life first. Then see why it matters at the scale of everything.**
+
+(It runs in two halves: **the threat model** — name the mechanism, quantify the aggregate, act —
+and **the safeguards** — a verified, positive-sum practice that dissolves it at the root.)
 
 > ## ⭐ The centerpiece is the roadmap itself → **[ROADMAP.md](ROADMAP.md)**
 > A standalone, frontier-safety-style roadmap: **PSL severity tiers · four pillars · governance.**
@@ -21,34 +29,6 @@ It runs in two halves: **the threat model** (name the mechanism, quantify the ag
 > - **[ROADMAP.md](ROADMAP.md)** — the organizing model: security *levels* (PSL tiers), four pillars, monitoring, governance.
 >
 > Everything below is the *why*. You don't need it to start.
-
----
-
-## Why this matters: it's the architecture of frontier AI safety
-
-This is **not a metaphor borrowed for flavor.** The personal roadmap is built on the most rigorous
-risk-management framework that exists — the one frontier AI labs use for *catastrophic* risk.
-Anthropic's [Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
-maps onto this repo almost element-for-element:
-
-| This repo (personal) | RSP roadmap (frontier AI) |
-|---|---|
-| **PSL severity tiers** (1–5) with if-then safeguards | **ASL capability thresholds** — safeguards escalate per tier |
-| **AI as cross-layer aggregator** over every layer's log | **"Eyes on everything"** — centralized logs analyzed by AI for threats |
-| **The five-layer defense model** | **Defense-in-depth** (security · safeguards · alignment · policy) |
-| **Calibration / red-team-yourself guard** | **Alignment assessments vs. adversarially-designed models** |
-| **You as Responsible Scaling Officer** (weekly review) | **Responsible Scaling Officer** + risk reports |
-
-**Why that's important — two reasons:**
-
-1. **Validation.** This framework was derived from the *human* side and independently lands on the
-   same architecture professionals use for the hardest risk problem in the world. That convergence
-   is strong evidence the lens is aimed at something *real* — structured risk, not paranoia.
-2. **Leverage.** You don't have to invent a method. You inherit a battle-tested one — tiered
-   thresholds, layered defense, aggregate monitoring, adversarial calibration, governance — and
-   point it at your own life.
-
-Full mapping and the constructive flip (AI as the cross-layer architect): [`docs/ai-safety.md`](docs/ai-safety.md).
 
 ---
 
@@ -192,3 +172,51 @@ including a doctor, because carrying a sense of being targeted *everywhere* is i
 heavy load that deserves support, not just a spreadsheet.
 
 The log doesn't just build a case. It keeps you honest with yourself. Both matter.
+
+---
+
+# The Bridge — Why This Is Really About AI Safety
+
+Everything above was about **one life.** Now scale it.
+
+The whole mechanism — harm distributed across layers, each actor seeing only their slice, no one
+holding the aggregate, accountability evaporating into "I didn't know it added up" — is exactly the
+shape of the hardest problem in AI safety. The difference is scale, and the scale is the point:
+
+> A person can be ground down by a thousand small, locally-normal acts that no one feels
+> responsible for. **AI is the first thing that can run that mechanism across every layer of
+> society, for everyone, simultaneously, faster than any human can oversee.** Same structure.
+> Civilizational stakes.
+
+If you *felt* how unaccountable and invisible the aggregate harm was at the scale of a single
+person — how everyone's piece looked normal while the total was devastating — then you already
+understand, in your gut, why AI safety is the defining problem of our time. The personal case is
+the intuition pump. This is the real thing it was pumping for.
+
+And the answer is the same architecture, scaled up. This is **not a metaphor** — Anthropic's
+[Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
+is the most rigorous risk-management framework that exists, and this repo maps onto it
+element-for-element:
+
+| This repo (one life) | RSP roadmap (frontier AI) |
+|---|---|
+| **PSL severity tiers** (1–5) with if-then safeguards | **ASL capability thresholds** — safeguards escalate per tier |
+| **Cross-layer aggregator** over every layer's log | **"Eyes on everything"** — centralized logs analyzed by AI for threats |
+| **The five-layer defense model** | **Defense-in-depth** (security · safeguards · alignment · policy) |
+| **Calibration / red-team-yourself guard** | **Alignment assessments vs. adversarially-designed models** |
+| **You as Responsible Scaling Officer** | **Responsible Scaling Officer** + risk reports |
+
+Two things this convergence proves:
+
+1. **The lens is real, not paranoia.** Derived from the human side, it independently lands on the
+   same architecture professionals use for catastrophic risk. That's validation.
+2. **The same medicine works at both scales.** Tiered, layered, monitored, governed beats
+   vigilant-but-formless — for a frightened person *and* for a civilization deploying systems that
+   act across every layer at once.
+
+That's the whole argument: **understand layered harm in one life, and you understand why AI safety
+matters more than almost anything.** Personal safety was the propellant. AI safety is the
+destination.
+
+Full mapping + the constructive flip (AI as the cross-layer architect who can finally *see* the
+aggregate no human could): [`docs/ai-safety.md`](docs/ai-safety.md).
