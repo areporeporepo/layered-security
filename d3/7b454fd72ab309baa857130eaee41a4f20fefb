@@ -1,0 +1,25 @@
+START_HERE.md
+  s_ddd34c2f141703::t_1a7cc06b14236e 16-17,23-34,41-47,69-70
+incidents.csv
+  s_ddd34c2f141703::t_1f09f1414d6356 2-4
+docs/logging-guide.md
+  s_ddd34c2f141703::t_6d16e500f1b27d 1-122
+score.py
+  s_ddd34c2f141703::t_e5e3f931be1b29 1-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "d37b454fd72ab309baa857130eaee41a4f20fefb",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
