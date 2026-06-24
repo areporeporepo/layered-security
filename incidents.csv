@@ -1,1 +1,4 @@
 date,time,layer,what_happened_factual,my_inference,severity_1to5,evidence_ref,witnesses,reported_to,report_id
+2026-06-15,09:20,workplace,"Assigned the Q3 client deck; in the 09:00 standup the lead announced the deck without naming me",credit may be getting routed away,2,screenshot_standup_0915.png,none,,
+2026-06-17,18:45,neighborhood,"Same parked sedan idling outside the unit for ~20 min; third time this week at roughly this hour",possible repeated provocation,2,photo_sedan_1845.jpg,none,,
+2026-06-19,08:05,home,"Front deadbolt found unlocked at 08:05; I locked it at 22:30 the night before",possible entry,3,photo_deadbolt_0805.jpg,none,Palo Alto PD non-emergency,PR-2026-04417

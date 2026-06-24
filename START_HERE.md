@@ -13,10 +13,24 @@ the part that helps. Take it one line at a time.
   be sure it "counts" to call.
 - **The weight itself is crushing you / thoughts of not wanting to be here:** call or text
   **988** (US Suicide & Crisis Lifeline). It's for anyone carrying more than they can hold.
+- **You'd rather text than talk:** **Crisis Text Line — text HOME to 741741** (US).
+  In Canada text **HOME to 686868**; in the UK text **HOME to 85258**. Free, 24/7.
 
 Outside the US, search "<your country> crisis line" — most have one.
 
 **Do this part before the rest.** Documentation can wait an hour. Your safety can't.
+
+### If you know which layer is worst — find help by situation
+
+- **Stalking or being followed/watched:** the Stalking Prevention, Awareness, and Resource
+  Center (**SPARC**) has plain-language guides and a safety-plan worksheet. Search "SPARC stalking
+  resource center."
+- **Harassment or discrimination at work:** the federal **EEOC** (search "eeoc.gov") handles
+  workplace complaints; most states also have their own fair-employment agency — search
+  "<your state> fair employment agency" or "<your state> civil rights department." There are
+  filing deadlines, so don't sit on this one.
+- **You need a lawyer but can't pay:** **LawHelp.org** routes you to free and low-cost legal aid
+  by state, or search "<your county> legal aid." Many private lawyers also give a free first consult.
 
 ---
 
@@ -24,9 +38,13 @@ Outside the US, search "<your country> crisis line" — most have one.
 
 What's happening to you is a real pattern: harm spread thin across many people and many parts
 of your life, where each person's piece looks small and "normal" — so no one feels responsible,
-and you're left holding the whole weight nobody else can see. It is not your failure. It is not
-imagined. And it is not personal to you — it's a mechanism a lot of people are under. Naming it
-is the first thing that helps. (The model is in the [README](README.md), for later.)
+and you're left holding the whole weight nobody else can see.
+
+This is not your failure. It is not imagined. And it is almost never one hidden person pulling
+strings. It's a *mechanism*: a lot of ordinary people each doing a small, locally-normal thing,
+with no coordinator and no plan — and the total still lands on you. That distinction matters,
+because it points you at channels and records, not at trying to expose a conspiracy. Naming the
+mechanism is the first thing that helps. (The model is in the [README](README.md), for later.)
 
 ---
 
@@ -48,7 +66,8 @@ first — see [`docs/escalation.md`](docs/escalation.md). Don't try to fix every
 ### 4. Take it to a channel with real power
 A report by itself usually changes nothing — it's a *timestamp*, not an action. The things with
 teeth: a **protective order**, a **lawyer** (many give free consults), **footage** from a camera,
-or an **agency with jurisdiction**. Hand them the log. See [`docs/escalation.md`](docs/escalation.md).
+or an **agency with jurisdiction** (see the by-situation list above). Hand them the log.
+See [`docs/escalation.md`](docs/escalation.md).
 
 ### 5. Protect the one thing you control: you
 You can't reprogram the people doing this. You *can* keep yourself clear enough to act.
