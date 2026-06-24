@@ -42,6 +42,8 @@ when a lower rung fails, the harm climbs:
 
 The point of this repo is to **look at the column.**
 
+![The local-knowledge problem: five layers, ordered by stakes, and the aggregate column no single actor can see](docs/figures/layers.svg)
+
 ## No coordinator required (read this before you read anything as a conspiracy)
 
 The aggregate can *feel* coordinated. It almost never is. The honest mechanism:
