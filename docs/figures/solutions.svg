@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="920" height="620" fill="#f6faf6"/>
+  <text x="60" y="46" font-size="26" font-weight="700" fill="#15321f">The Solution Stack — Positive-Sum, Verified</text>
+  <text x="60" y="72" font-size="15" fill="#3c5a45">You don't claim it. You log it.  CARE (mental) + ACTION — verified — = positive-sum.</text>
+
+  <!-- equation banner -->
+  <g>
+    <rect x="60" y="86" width="800" height="40" rx="8" fill="#e3f1e6" stroke="#bcdcc4"/>
+    <text x="92" y="112" font-size="15" font-weight="700" fill="#2e7d4f">CARE</text>
+    <text x="168" y="112" font-size="15" fill="#3c5a45">+</text>
+    <text x="190" y="112" font-size="15" font-weight="700" fill="#2e7d4f">ACTION</text>
+    <text x="280" y="112" font-size="15" fill="#3c5a45">→</text>
+    <text x="306" y="112" font-size="15" font-weight="700" fill="#1c7a3a">VERIFIED ✓</text>
+    <text x="430" y="112" font-size="15" fill="#3c5a45">→</text>
+    <text x="456" y="112" font-size="15" font-weight="700" fill="#15321f">POSITIVE-SUM</text>
+    <text x="640" y="112" font-size="13" fill="#6b8a73">(logged in your gists, not asserted)</text>
+  </g>
+
+  <defs>
+    <marker id="garr" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#5aa172"/>
+    </marker>
+  </defs>
+
+  <!-- rows -->
+  <!-- 1 health -->
+  <g>
+    <rect x="60" y="146" width="500" height="68" rx="8" fill="#ffffff" stroke="#cfe6d4"/>
+    <rect x="60" y="146" width="10" height="68" rx="4" fill="#1c7a3a"/>
+    <text x="84" y="174" font-size="17" font-weight="700" fill="#15321f">Body · Health</text>
+    <text x="84" y="197" font-size="13" fill="#3c5a45">train · sleep · recover — keep the one witness you control sharp</text>
+    <text x="548" y="184" font-size="12" font-weight="700" fill="#1c7a3a" text-anchor="end">✓ Zone 5 streak</text>
+    <line x1="560" y1="180" x2="628" y2="200" stroke="#5aa172" stroke-width="1.6" marker-end="url(#garr)"/>
+  </g>
+  <!-- 2 moral circle -->
+  <g>
+    <rect x="60" y="222" width="500" height="68" rx="8" fill="#ffffff" stroke="#cfe6d4"/>
+    <rect x="60" y="222" width="10" height="68" rx="4" fill="#1c7a3a"/>
+    <text x="84" y="250" font-size="17" font-weight="700" fill="#15321f">Moral circle · Animal welfare</text>
+    <text x="84" y="273" font-size="13" fill="#3c5a45">don't hurt or eat animals; widen who counts as worthy of care</text>
+    <text x="548" y="260" font-size="12" font-weight="700" fill="#1c7a3a" text-anchor="end">✓ welfare log</text>
+    <line x1="560" y1="256" x2="628" y2="220" stroke="#5aa172" stroke-width="1.6" marker-end="url(#garr)"/>
+  </g>
+  <!-- 3 mind -->
+  <g>
+    <rect x="60" y="298" width="500" height="68" rx="8" fill="#ffffff" stroke="#cfe6d4"/>
+    <rect x="60" y="298" width="10" height="68" rx="4" fill="#1c7a3a"/>
+    <text x="84" y="326" font-size="17" font-weight="700" fill="#15321f">Mind · Positivity</text>
+    <text x="84" y="349" font-size="13" fill="#3c5a45">choose the highest mental model; positive-sum, not stress-discharge</text>
+    <text x="548" y="336" font-size="12" font-weight="700" fill="#1c7a3a" text-anchor="end">✓ positivity log</text>
+    <line x1="560" y1="332" x2="628" y2="300" stroke="#5aa172" stroke-width="1.6" marker-end="url(#garr)"/>
+  </g>
+  <!-- 4 conduct -->
+  <g>
+    <rect x="60" y="374" width="500" height="68" rx="8" fill="#ffffff" stroke="#cfe6d4"/>
+    <rect x="60" y="374" width="10" height="68" rx="4" fill="#1c7a3a"/>
+    <text x="84" y="402" font-size="17" font-weight="700" fill="#15321f">Conduct toward others</text>
+    <text x="84" y="425" font-size="13" fill="#3c5a45">add to people; never discharge your stress onto them</text>
+    <text x="548" y="412" font-size="12" font-weight="700" fill="#1c7a3a" text-anchor="end">✓ daily conduct</text>
+    <line x1="560" y1="408" x2="628" y2="360" stroke="#5aa172" stroke-width="1.6" marker-end="url(#garr)"/>
+  </g>
+  <!-- 5 contribution -->
+  <g>
+    <rect x="60" y="450" width="500" height="68" rx="8" fill="#ffffff" stroke="#cfe6d4"/>
+    <rect x="60" y="450" width="10" height="68" rx="4" fill="#1c7a3a"/>
+    <text x="84" y="478" font-size="17" font-weight="700" fill="#15321f">Contribution</text>
+    <text x="84" y="501" font-size="13" fill="#3c5a45">build things that help — like this repo</text>
+    <text x="548" y="488" font-size="12" font-weight="700" fill="#1c7a3a" text-anchor="end">✓ shipped work</text>
+    <line x1="560" y1="484" x2="628" y2="430" stroke="#5aa172" stroke-width="1.6" marker-end="url(#garr)"/>
+  </g>
+
+  <!-- proof column -->
+  <rect x="632" y="146" width="228" height="372" rx="10" fill="#1c7a3a"/>
+  <text x="746" y="194" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">THE PROOF</text>
+  <text x="746" y="220" font-size="13" fill="#cde7d4" text-anchor="middle">your public gists</text>
+  <text x="746" y="320" font-size="14" font-weight="600" fill="#eafff0" text-anchor="middle">public · dated ·</text>
+  <text x="746" y="342" font-size="14" font-weight="600" fill="#eafff0" text-anchor="middle">undeniable</text>
+  <text x="746" y="470" font-size="12" fill="#cde7d4" text-anchor="middle">positive-sum you can</text>
+  <text x="746" y="488" font-size="12" fill="#cde7d4" text-anchor="middle">point to, not just claim</text>
+
+  <text x="60" y="556" font-size="13" fill="#4a6b53">The problem stack ends in a column no one can see. The solution stack ends in one everyone can — your verified trackers.</text>
+  <text x="60" y="580" font-size="12" fill="#6b8a73">Links: gist.github.com/areporeporepo/fd6e7cb4f16424f423b9120ae3033471  ·  workout-data: …/212d6332c2cbb27ac2a57fc54f4e841d</text>
+</svg>

@@ -75,6 +75,28 @@ network of enemies.
 
 ---
 
+## The other half: the Solution Stack
+
+Naming the problem isn't the contribution. **This is.** If the harm is "many people each doing a
+small, unconscious, *negative-sum* thing," the answer is the same shape inverted: **one person
+doing small, conscious, *verified* positive-sum things.** And you don't announce it — you log it.
+
+> **CARE (mental) + ACTION — verified — = positive-sum.**
+
+![The solution stack: five verified layers feeding a public proof column](docs/figures/solutions.svg)
+
+The keystone is **animal welfare**, and here's why it's not a side cause: the harm runs on
+**tribalism** — a group bonding by casting someone *out*. Expand your circle of care all the way
+to animals, the most "out" of all out-groups, and **there's no out-group left to anchor the tribe
+on.** It dissolves the substrate the whole harm mechanism rests on. Paired with **health** (Zone 5)
+— maintaining the one node you control — you get the antidote built from the same parts as the
+poison, and both are *verified by what you do*, logged in public gists.
+
+- **[SOLUTIONS.md](SOLUTIONS.md)** — the full stack, the tribalism keystone, and links to the trackers.
+- **[docs/solution-layers.md](docs/solution-layers.md)** — each solution layer in depth, and which problem-mechanism it dissolves.
+
+---
+
 ## Two things this framework does
 
 ### 1. Sets the standard explicitly, per layer
@@ -99,6 +121,7 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Ready to escalate | [`docs/escalation.md`](docs/escalation.md) — the right channel per layer, with real organizations |
 | Building your own baseline | [`docs/baseline.md`](docs/baseline.md) — the layer that protects your judgment under stress |
 | Curious about the AI-safety bridge | [`docs/ai-safety.md`](docs/ai-safety.md) — the same structure as distributed harm / scalable oversight in frontier AI |
+| Ready to be part of the solution | [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/solution-layers.md`](docs/solution-layers.md) — verified positive-sum practice, anchored on animal welfare + health |
 
 ---
 
