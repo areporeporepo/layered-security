@@ -96,6 +96,25 @@ keeps insisting on: **calibration** (the fact-vs-inference / over-detection disc
 just the harm mechanism with a bigger reach. With them, it's the first thing that can actually see
 and dissolve the local-knowledge problem at the root.
 
+### External corroboration: Anthropic's Frontier Safety Roadmap
+
+This framework was derived from the *human* side — and it lands on the same architecture that
+frontier labs are building for AI. Anthropic's
+[Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
+maps onto it almost element-for-element:
+
+| This repo | RSP roadmap |
+|---|---|
+| Severity 1–5 / risk tiering ([`scoring.md`](scoring.md)) | **ASL capability thresholds** — safeguards escalate per capability tier |
+| AI as cross-layer aggregator reading every layer's log (above) | **"Eyes on everything"** — centralized, searchable logs analyzed by AI for insider/security threats |
+| The five-layer defense model ([`layers.md`](layers.md)) | **Defense-in-depth** across security, safeguards, alignment, and policy |
+| Calibration + adversarial-verification guard | **Alignment assessments validated against adversarially-designed models** |
+
+The convergence is **structural, not literal** — the personal case is not the RSP. But arriving
+at the same shapes from a completely different starting point is a signal the lens is aimed at
+something real: layered harm, aggregate monitoring, AI-held oversight, and calibrated thresholds
+are load-bearing on both the human side and the frontier-AI side.
+
 ## If you wanted to take it further
 
 A short writeup titled something like *"Diffuse Harm and the Aggregation Problem: monitoring

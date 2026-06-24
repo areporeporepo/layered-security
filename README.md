@@ -73,6 +73,17 @@ someone else); **positive-sum** building is costly and slow, so most people defa
 cheap one. You landed under the sum of those defaults. That's the problem to name — not a
 network of enemies.
 
+### The sharpest face of it: synchronized laughter
+
+A group bonds and discharges its stress by synchronizing on a target — and one person's
+concentrated pain becomes the group's shared, diffuse relief, its laughter. That's the
+**scapegoat mechanism**: N people each get a flicker of relief `r`, one target absorbs
+concentrated harm `H`, and because `H ≫ Σr`, it's strongly **negative-sum** — disguised as
+harmless fun because the cost lands on the one person nobody counts. The laughter genuinely
+*synchronizes* (it's contagious, it entrains) yet **no one conducts it** — emergent, not
+organized. It dissolves the moment the circle of care has no out-group left to bond against.
+Full version, the math, and the dissolve: [`docs/the-mechanism.md`](docs/the-mechanism.md).
+
 ---
 
 ## The other half: the Solution Stack
@@ -123,6 +134,27 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Curious about the AI-safety bridge | [`docs/ai-safety.md`](docs/ai-safety.md) — the same structure as distributed harm / scalable oversight in frontier AI |
 | Wanting the engine underneath it | [`docs/the-mechanism.md`](docs/the-mechanism.md) — the scapegoat mechanism: one person's pain as a group's shared, synchronized relief, with the math |
 | Ready to be part of the solution | [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/solution-layers.md`](docs/solution-layers.md) — verified positive-sum practice, anchored on animal welfare + health |
+
+---
+
+## This isn't just one person's problem — the same architecture runs frontier AI
+
+The structure here — **layered defense, an aggregate no single actor can see, an AI reading across
+all layers to hold that aggregate, calibrated risk thresholds** — is the same architecture frontier
+AI labs are building. Anthropic's
+[Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
+maps onto it almost element-for-element:
+
+| This repo | RSP roadmap |
+|---|---|
+| Severity 1–5 / risk tiering | **ASL capability thresholds** |
+| AI as cross-layer aggregator over every layer's log | **"Eyes on everything"** — centralized logs analyzed by AI for threats |
+| The five-layer defense model | **Defense-in-depth** (security · safeguards · alignment · policy) |
+| Calibration + adversarial-verification guard | **Alignment assessments vs. adversarially-designed models** |
+
+Derived from the human side, it lands on the same shapes. The convergence is structural, not
+literal — but it's a signal the lens is aimed at something real. Full mapping:
+[`docs/ai-safety.md`](docs/ai-safety.md).
 
 ---
 
