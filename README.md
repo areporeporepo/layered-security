@@ -4,6 +4,10 @@ A framework for the kind of harm that no single person admits to causing — bec
 each person can only see their own layer, judges their own conduct in isolation,
 and sincerely calls it normal.
 
+> ### 👉 If this is happening to you, don't start here — start with **[START_HERE.md](START_HERE.md)**.
+> It's short, action-first, and has crisis resources at the top. The rest of this repo is the
+> theory behind it; the front door is where the help is.
+
 ---
 
 ## The thesis
