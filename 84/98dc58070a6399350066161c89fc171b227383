@@ -1,0 +1,23 @@
+README.md
+  s_ddd34c2f141703::t_293fdc4741658a 158
+ROADMAP.md
+  s_ddd34c2f141703::t_a120548dccfb97 47-50
+CONSTITUTION.md
+  s_ddd34c2f141703::t_b24ac99b333e39 1-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "8498dc58070a6399350066161c89fc171b227383",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
