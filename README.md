@@ -24,6 +24,34 @@ It runs in two halves: **the threat model** (name the mechanism, quantify the ag
 
 ---
 
+## Why this matters: it's the architecture of frontier AI safety
+
+This is **not a metaphor borrowed for flavor.** The personal roadmap is built on the most rigorous
+risk-management framework that exists — the one frontier AI labs use for *catastrophic* risk.
+Anthropic's [Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
+maps onto this repo almost element-for-element:
+
+| This repo (personal) | RSP roadmap (frontier AI) |
+|---|---|
+| **PSL severity tiers** (1–5) with if-then safeguards | **ASL capability thresholds** — safeguards escalate per tier |
+| **AI as cross-layer aggregator** over every layer's log | **"Eyes on everything"** — centralized logs analyzed by AI for threats |
+| **The five-layer defense model** | **Defense-in-depth** (security · safeguards · alignment · policy) |
+| **Calibration / red-team-yourself guard** | **Alignment assessments vs. adversarially-designed models** |
+| **You as Responsible Scaling Officer** (weekly review) | **Responsible Scaling Officer** + risk reports |
+
+**Why that's important — two reasons:**
+
+1. **Validation.** This framework was derived from the *human* side and independently lands on the
+   same architecture professionals use for the hardest risk problem in the world. That convergence
+   is strong evidence the lens is aimed at something *real* — structured risk, not paranoia.
+2. **Leverage.** You don't have to invent a method. You inherit a battle-tested one — tiered
+   thresholds, layered defense, aggregate monitoring, adversarial calibration, governance — and
+   point it at your own life.
+
+Full mapping and the constructive flip (AI as the cross-layer architect): [`docs/ai-safety.md`](docs/ai-safety.md).
+
+---
+
 ## The thesis
 
 Serious harm to a person is rarely one big act. More often it's distributed across
@@ -147,27 +175,6 @@ See [`docs/incident-log-template.md`](docs/incident-log-template.md).
 | Wanting the engine underneath it | [`docs/the-mechanism.md`](docs/the-mechanism.md) — the scapegoat mechanism: one person's pain as a group's shared, synchronized relief, with the math |
 | Wanting precise words for what you face | [`docs/lexicon.md`](docs/lexicon.md) — security/RSP vocabulary mapped to the personal layers (personal-level espionage, theft/exfiltration, insider threat, attack surface…) |
 | Ready to be part of the solution | [`SOLUTIONS.md`](SOLUTIONS.md) + [`docs/solution-layers.md`](docs/solution-layers.md) — verified positive-sum practice, anchored on animal welfare + health |
-
----
-
-## This isn't just one person's problem — the same architecture runs frontier AI
-
-The structure here — **layered defense, an aggregate no single actor can see, an AI reading across
-all layers to hold that aggregate, calibrated risk thresholds** — is the same architecture frontier
-AI labs are building. Anthropic's
-[Responsible Scaling Policy roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)
-maps onto it almost element-for-element:
-
-| This repo | RSP roadmap |
-|---|---|
-| Severity 1–5 / risk tiering | **ASL capability thresholds** |
-| AI as cross-layer aggregator over every layer's log | **"Eyes on everything"** — centralized logs analyzed by AI for threats |
-| The five-layer defense model | **Defense-in-depth** (security · safeguards · alignment · policy) |
-| Calibration + adversarial-verification guard | **Alignment assessments vs. adversarially-designed models** |
-
-Derived from the human side, it lands on the same shapes. The convergence is structural, not
-literal — but it's a signal the lens is aimed at something real. Full mapping:
-[`docs/ai-safety.md`](docs/ai-safety.md).
 
 ---
 
