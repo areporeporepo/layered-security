@@ -1,0 +1,19 @@
+README.md
+  s_ddd34c2f141703::t_0ebb91ea906f71 229-248
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "c522b02009c0ed88b5bc949ccf85fc726711c6a2",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
