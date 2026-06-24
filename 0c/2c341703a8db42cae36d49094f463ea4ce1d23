@@ -1,0 +1,31 @@
+docs/escalation.md
+  s_ddd34c2f141703::t_80efc06a125fc7 1-48
+incidents.csv
+  s_ddd34c2f141703::t_87c2e720243ed1 1
+docs/incident-log-template.md
+  s_ddd34c2f141703::t_4a1263cf6fee50 1-38
+README.md
+  s_ddd34c2f141703::t_9e2c375866a2f2 1-83
+docs/layers.md
+  s_ddd34c2f141703::t_5823edc0ce72d5 1-94
+docs/scoring.md
+  s_ddd34c2f141703::t_4567b667c34d2c 1-66
+docs/baseline.md
+  s_ddd34c2f141703::t_cd16e34e135264 1-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "0c2c341703a8db42cae36d49094f463ea4ce1d23",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
