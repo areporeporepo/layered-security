@@ -1,0 +1,20 @@
+docs/escalation.md
+  s_ddd34c2f141703::t_f7a008c2d4fac4 26-48
+  s_ddd34c2f141703::t_862399c00ffdd2 65-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.11",
+  "base_commit_sha": "48c43180147e84ab0bab21f673926ad4f46279a0",
+  "prompts": {},
+  "sessions": {
+    "s_ddd34c2f141703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f898c448-dc23-4392-bce7-861d50704a47",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
