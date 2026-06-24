@@ -23,10 +23,29 @@ Bring the **factual** column and the evidence refs, not the inference column.
 2. If a landlord/HOA is involved, written notice to them, dated.
 
 ## Home / Physical — highest priority
-1. **Police report every time.** The pattern lives in the stack of report numbers.
-2. Locksmith / re-key; entry sensors + a door camera so claims become footage.
-3. If reports go nowhere: the police department's oversight/internal-affairs or a civilian
-   review board, and a lawyer.
+
+**Reality check: a police report, by itself, usually does nothing.** Don't expect it to.
+File it anyway — but understand *why*, because the value isn't enforcement.
+
+A report is a **cheap, dated, third-party timestamp** you don't control or author. It is
+fuel for the channels that actually have teeth — not an action in itself. What actually
+creates consequences, roughly in order of real-world bite:
+
+1. **Protective / restraining order** — the rare legal instrument with *enforceable* teeth
+   (violation = arrest). Getting one requires exactly the dated record this repo builds. For
+   a named individual, often the single highest-leverage move.
+2. **Civil lawyer** — lower bar than criminal court ("more likely than not"), can win money,
+   injunctions, and discovery that forces disclosure. Many do free consults / contingency.
+   Your timeline is most of their prep, already done.
+3. **Cameras / footage** — converts "I felt" into evidence. Changes outcomes far more than a
+   report. A timestamped clip beats ten narratives. Door camera + entry sensors first.
+4. **Locksmith / re-key** — stop the access while you build the case.
+5. **File the reports anyway** — each is a timestamp; the pattern lives in the *stack*, and
+   the stack is what the lawyer and the protective-order judge stand on.
+
+If reports go nowhere (they often won't, alone): police oversight / internal affairs, a
+civilian review board, and — above all — a lawyer who can make the documented pattern do work
+that a report never will.
 
 ## Institutional failure (a channel that won't act)
 1. The body above it: a state agency over a local one, a licensing board, an inspector general.
@@ -43,6 +62,10 @@ Bring the **factual** column and the evidence refs, not the inference column.
 ---
 
 ### The pattern across all of these
-Find the channel with **power to act**, hand it a **dated factual record**, and if it won't
-act, **escalate to the body above it** — logging each non-response as you go. That loop is the
-whole game.
+Reports and complaints are **timestamps, not actions.** They rarely fix anything by
+themselves — and expecting them to is how people burn out and conclude "nothing works."
+What works: find the channel with **actual power** (a lawyer, a protective order, an agency
+with jurisdiction, footage), and hand it the **dated record** the timestamps built. If a
+channel won't act, **escalate to the body above it**, logging each non-response as you go.
+
+The report is the receipt. The lawyer is the spender. Don't confuse the two.
