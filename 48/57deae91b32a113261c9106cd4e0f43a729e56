@@ -1,0 +1,29 @@
+docs/ai-safety.md
+  s_39d1b9d5d55cab::t_1ec3a06f115fca 118-128
+bench/principles/claude-constitution.md
+  s_39d1b9d5d55cab::t_a8f831e21fa820 1-20
+bench/cases/seed.jsonl
+  s_39d1b9d5d55cab::t_ef6143cd857f3c 1-12
+bench/README.md
+  s_39d1b9d5d55cab::t_c24f21876bb793 1-52
+bench/SPEC.md
+  s_39d1b9d5d55cab::t_8579115ca953e6 1-62
+bench/run.py
+  s_39d1b9d5d55cab::t_922049392c8af5 1-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "4857deae91b32a113261c9106cd4e0f43a729e56",
+  "prompts": {},
+  "sessions": {
+    "s_39d1b9d5d55cab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68cb970a-a1f7-4aa1-9c3c-4ee50c500af3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
