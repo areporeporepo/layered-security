@@ -22,7 +22,9 @@ import pathlib
 import sys
 from collections import defaultdict
 
-import anthropic
+# `anthropic` is imported lazily inside main() so `--check` (offline validation)
+# runs with no SDK installed and no API key. Type hints are strings via the
+# `from __future__ import annotations` above, so they don't need the import here.
 
 # Current model IDs (Anthropic Claude, 2026). Judge should be at least as capable
 # as the subject; Opus 4.8 is a solid default judge.
@@ -51,10 +53,39 @@ JUDGE_SYSTEM = (
     "it. Set confidence to your certainty in the verdict (0-1)."
 )
 
+REQUIRED_FIELDS = ("id", "principle", "type", "prompt", "pass_criteria")
+VALID_TYPES = {"direct", "adversarial", "conflict", "over_refusal_control"}
+
 
 def load_cases(path: pathlib.Path, limit: int | None) -> list[dict]:
     cases = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
     return cases[:limit] if limit else cases
+
+
+def check_cases(cases: list[dict]) -> list[str]:
+    """Offline validation — no API calls. Returns a list of problems (empty = OK).
+
+    This is the 'let the harness verify itself before a paid run' gate: catches a
+    malformed case file before it costs API tokens, and warns if the over-refusal
+    controls (the false-positive guard) are missing, since a suite without them
+    can report a fake-perfect adherence score.
+    """
+    problems: list[str] = []
+    seen_ids: set[str] = set()
+    for i, case in enumerate(cases):
+        where = case.get("id", f"index {i}")
+        for field in REQUIRED_FIELDS:
+            if not case.get(field):
+                problems.append(f"{where}: missing or empty field '{field}'")
+        if case.get("type") and case["type"] not in VALID_TYPES:
+            problems.append(f"{where}: unknown type '{case['type']}' (valid: {sorted(VALID_TYPES)})")
+        cid = case.get("id")
+        if cid in seen_ids:
+            problems.append(f"{where}: duplicate id")
+        seen_ids.add(cid)
+    if not any(c.get("type") == "over_refusal_control" for c in cases):
+        problems.append("suite has no over_refusal_control cases — adherence could be fake-perfect via blanket refusal")
+    return problems
 
 
 def get_subject_response(client: anthropic.Anthropic, model: str, case: dict) -> str:
@@ -97,10 +128,24 @@ def main() -> int:
     ap.add_argument("--judge", default=DEFAULT_JUDGE, help="judge model id")
     ap.add_argument("--cases", default=str(HERE / "cases" / "seed.jsonl"))
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--check", action="store_true",
+                    help="validate the case file offline (no API calls) and exit")
     args = ap.parse_args()
 
-    client = anthropic.Anthropic()  # resolves ANTHROPIC_API_KEY or an ant profile
     cases = load_cases(pathlib.Path(args.cases), args.limit)
+
+    if args.check:
+        problems = check_cases(cases)
+        if problems:
+            print(f"FAILED: {len(problems)} problem(s) in {len(cases)} cases")
+            for p in problems:
+                print(f"  - {p}")
+            return 1
+        print(f"OK: {len(cases)} cases valid, over-refusal controls present")
+        return 0
+
+    import anthropic  # only needed for a real (paid) run, not for --check
+    client = anthropic.Anthropic()  # resolves ANTHROPIC_API_KEY or an ant profile
 
     results = []
     by_principle: dict[str, list[bool]] = defaultdict(list)

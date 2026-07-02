@@ -35,11 +35,16 @@ Two caveats that motivate the work rather than undercut it:
 ## Quick start
 
 ```bash
+python run.py --check                  # offline: validate the case file, no SDK or API key needed
 pip install anthropic
 export ANTHROPIC_API_KEY=...          # or: ant auth login
 python run.py                          # subject + judge default to claude-opus-4-8
 python run.py --model claude-sonnet-5  # different subject model
 ```
+
+`--check` is the self-verification gate: it validates every case (required fields, valid type,
+unique id) and fails if the suite has no over-refusal controls, so a fake-perfect adherence score
+can't slip through. Run it before any paid run.
 
 Output: per-principle adherence and a by-type breakdown (watch `over_refusal_control`
 separately), plus a JSON results file under `bench/results/`.
