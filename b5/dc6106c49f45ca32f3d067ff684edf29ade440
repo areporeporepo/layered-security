@@ -1,0 +1,27 @@
+bench/run.py
+  s_39d1b9d5d55cab::t_7d43982aef2466 25-27
+  s_39d1b9d5d55cab::t_509a0449ec5fd8 147
+  s_39d1b9d5d55cab::t_2a43201e982acf 131-132,137-146,148
+  s_39d1b9d5d55cab::t_00cc7f460f78ef 56-58,65-88
+  s_39d1b9d5d55cab::t_0df263ad4fce8e 89-90
+  s_39d1b9d5d55cab::t_b2a699615d84f3 149
+bench/README.md
+  s_39d1b9d5d55cab::t_324e6ca6bff3e8 38,45-47
+  s_39d1b9d5d55cab::t_8fd6ff5bdd4cf8 48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "b5dc6106c49f45ca32f3d067ff684edf29ade440",
+  "prompts": {},
+  "sessions": {
+    "s_39d1b9d5d55cab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68cb970a-a1f7-4aa1-9c3c-4ee50c500af3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
