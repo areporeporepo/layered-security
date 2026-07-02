@@ -1,0 +1,21 @@
+bench/cases/seed.jsonl
+  s_39d1b9d5d55cab::t_82519229fe7b5d 10-14
+bench/principles/claude-constitution.md
+  s_39d1b9d5d55cab::t_81f86e4b0b34ed 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "da8d6b909530e2697a7396557c980f8d577ad3ff",
+  "prompts": {},
+  "sessions": {
+    "s_39d1b9d5d55cab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68cb970a-a1f7-4aa1-9c3c-4ee50c500af3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "anh nguyen <anh.nqqq@icloud.com>"
+    }
+  }
+}
