@@ -115,6 +115,17 @@ at the same shapes from a completely different starting point is a signal the le
 something real: layered harm, aggregate monitoring, AI-held oversight, and calibrated thresholds
 are load-bearing on both the human side and the frontier-AI side.
 
+## Implemented here: the constitution-adherence benchmark
+
+Research direction 1 (aggregate-harm monitors) and the over-detection warning above are no
+longer only a proposal in this repo — [`../bench/`](../bench/) is a runnable first cut. It sends
+test cases to a subject model, grades each response against the relevant clause of the model's
+**published constitution** with a judge model, and reports a per-principle adherence rate — with
+**over-refusal controls scored alongside**, so a classifier that looks perfect only because it
+refuses everything is caught. That over-detection check is the same honesty guard as
+[`scoring.md`](scoring.md), applied to a model instead of an incident log. See
+[`../bench/SPEC.md`](../bench/SPEC.md) for metrics and Goodhart mitigations.
+
 ## If you wanted to take it further
 
 A short writeup titled something like *"Diffuse Harm and the Aggregation Problem: monitoring
